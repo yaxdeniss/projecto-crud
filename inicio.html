@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Projecto Crud
+        </title>
+        <link rel="stylesheet" href="../projecto crud/css/css.css">
+    </head>
+
+    <body>
+        <main class="contenedor">
+            <section class="sombra">
+                <h1 class="titulo-Crud">Registro de usuario</h1>
+                <form id="formregister" class="Formulario-crud">
+                    <input type="text" placeholder="Nombre" id="nameinput" class="formulario-entrada">
+                    <input type="email" placeholder="correo electronico" id="emailinput" class="formulario-entrada">
+                    <button type="submit" id="submitboton" class="formulario-boton boton--primary">Registrar</button>
+                </form>
+
+                <table class="Tablacrud">
+                    <thead>
+                        <tr>
+                            <th class="Cabeza-tabla">Nombre</th>
+                            <th class="Cabeza-tabla">Correo electronico</th>
+                            <th class="Cabeza-tabla">acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tablebody" class="cuerpo-tabla"></tbody>
+                </table>                
+            </section>
+        </main>
+
+        <script src="../projecto crud/app.js"></script>
+    </body>
+</html>

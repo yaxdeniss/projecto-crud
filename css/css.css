@@ -1,0 +1,67 @@
+.sombra{
+    -webkit-box-shadow: -4px 6px 37px -1px rgba(66,65,66,0.58);
+    -moz-box-shadow: -4px 6px 37px -1px rgba(66,65,66,0.58);
+     box-shadow: -4px 6px 37px -1px rgba(66,65,66,0.58);
+     background-color: #f0dada;
+     padding: 2rem;
+     border-radius: 1rem;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor {
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+}
+
+.titulo-Crud {
+    text-align: center;
+    color: rgb(52, 52, 92);
+}
+
+.Formulario-crud{
+    display: flex;
+    margin: 1.5rem 0;   
+}
+
+.formulario-entrada {
+    flex: 1;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+    border: #000000;
+    border-radius: 1rem;
+}
+.formulario-boton {
+    padding: 1rem 0.5rem;
+    border: none;
+    border-radius: 2rem;
+    font-weight: 700;
+}
+.formulario-boton:hover{
+    color: #b41c1c;
+    transform: scale(1.08);
+}
+.formulario-boton    {
+    background-color: rgb(228, 151, 63);
+}
+.Tablacrud{
+    width: 100%;
+    border: #000000;
+}
+.Cabeza-tabla, .cuerpo-tabla td {
+    border: 0.125rem solid #000000;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    background-color: #eccd97;
+
+}
+.cuerpo-tabla td:nth-child(3){
+    display: flex;
+    justify-content: space-around;
+    border-radius: 1rem;
+}
